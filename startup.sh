@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd qrcodescanner
+cd qrscanner
 /bin/python3 ./scanner.py
