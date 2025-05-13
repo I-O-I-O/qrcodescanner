@@ -3,11 +3,18 @@
 
 import cv2
 import re
-from selenium import webdriver # Needed to open page in default browser
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.service import Service
 
-selenium = webdriver.Chrome() 
-# Make the window full-screen
+options = Options()
 
+
+#options.add_argument('--kiosk')  # Or '--headless' if no display
+service = Service(executable_path='/usr/local/bin/geckodriver') 
+
+
+selenium = webdriver.Firefox(service=service, options=options)
 
 default_url = "https://materialconnexion.com"
 selenium.get(default_url)
@@ -18,7 +25,7 @@ pattern = r"^https://([a-zA-Z0-9-]+\.)*materialconnexion\.com(/.*)?$"
 
 # Set VideoCapture to 1 while testing on a laptop to use the external camera
 # TODO: Change to 0 when using the camera on the Raspberry Pi
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 # QR code detection Method
 detector = cv2.QRCodeDetector()
@@ -48,3 +55,4 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 selenium.quit() 
+
