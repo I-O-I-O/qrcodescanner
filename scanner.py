@@ -46,7 +46,6 @@ try:
     while True:
         ret, img = cap.read()
         if not ret or img is None:
-            print("Failed to capture image from camera.")
             continue
 
         try:
