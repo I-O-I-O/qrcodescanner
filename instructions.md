@@ -23,6 +23,13 @@ Click on the Wi-Fi icon on the top right, then go to `Advanced Options`, then `C
 Enter the name of the network and choose the appropriate `Wi-Fi Security` option (usually WPA3), then enter the password.
 ![20250515_21h58m30s_grim](https://github.com/user-attachments/assets/aa627325-554c-4573-ac98-51f09168904a)
 
+## Change allowed URLs
+By default, the code opens materialconnexion.com and only allows URLs with that domain to be opened. 
+1) To change it, open scanner.py (Click: folder button in the left upper corner > qrscanner folder > scanner.py)
+2) Overwrite the URL lines (underlined with red in the picture under) with the respective domain!
+![modify-url](https://github.com/user-attachments/assets/f9267d3a-0033-43eb-8117-c26a330b28b9)
+
+
 ## What to do at the end of each day
 1. Close the browser by moving the cursor to the top of the screen and pressing the X button.
 2. Close the window that shows the view of the camera by pressing `q` while the window is in focus.
