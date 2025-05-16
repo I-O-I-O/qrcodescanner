@@ -25,7 +25,7 @@ Enter the name of the network and choose the appropriate `Wi-Fi Security` option
 
 ## What to do at the end of each day
 1. Close the browser by moving the cursor to the top of the screen and pressing the X button.
-2. Close the window that shows the view of the camera.
+2. Close the window that shows the view of the camera by pressing `q` while the window is in focus.
 3. Close any other opened windows.
 4. Select the berry button at the top left, then scroll down to `Shutdown...`, then select `Shutdown` from the menu that pops up.
 ![20250515_21h44m18s_grim](https://github.com/user-attachments/assets/6e6305a9-165c-45cc-9721-ed13c4a67440)
