@@ -5,8 +5,9 @@
 QR code scanner scripts for Raspberry Pi 4 and USB Webcam
 
 ## Content
-- Python file for QR Code recognition
-- startup script for automatically opening the files at startup
+- `scanner.py` is the program that recognizes qr codes.
+- `setup.sh` is a script that sets up the Python environment from scratch.
+- `start.sh` is a script that runs the program.
 
 ## Contributors
 Eszti Kovács, IOIO, Malmo University
