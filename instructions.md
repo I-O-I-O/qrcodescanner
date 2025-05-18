@@ -1,6 +1,7 @@
 * [Connect to Wi-Fi](#connect-to-wi-fi)
 * [What to do at the start of each day](#what-to-do-at-the-start-of-each-day)
 * [What to do at the end of each day](#what-to-do-at-the-end-of-each-day)
+* [Other info](#other-info)
 
 ## What to do at the start of each day
 1. Ensure all cables exept the power cables are plugged in. The mouse, the keyboard and the camera should all be plugged into the USB ports as shown in the picture. The display cable should be plugged into the port closest to the power port as shown in the picture.
@@ -47,3 +48,7 @@ By default, the code opens materialconnexion.com and only allows URLs with that 
    4. You should now see Firefox and the camera window pop up.
    5. When Firefox is opened in full screen, accept the cookies.
    6. Congrats! The camera will now automatically read the codes and cycle between the different web pages.
+  
+## Other info
+**username:** ioio
+**password:** materialautomation
