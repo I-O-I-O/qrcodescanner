@@ -16,13 +16,17 @@ options = Options()
 service = Service(executable_path='/usr/local/bin/geckodriver')
 selenium = webdriver.Firefox(service=service, options=options)
 
+# Joachim.graetsch@iucsyd.se
+# Mässdagar@5
+
 # Default page and matching pattern
 default_url = "https://materialconnexion.com"
 selenium.get(default_url)
 selenium.fullscreen_window()
 
 lastData = default_url
-pattern = r"^https://([a-zA-Z0-9-]+\.)*materialconnexion\.[a-zA-Z]{2,}(/.*)?$"
+# pattern = r"([a-zA-Z0-9-]+\.)*materialconnexion\.[a-zA-Z]{2,}(/.*)?$"
+pattern = "materialconnexion"
 
 # Function to find an available camera
 def find_camera():
@@ -52,7 +56,11 @@ try:
             codes = decode(img)
             for code in codes:
                 data = code.data.decode('utf-8')
-                if re.match(pattern, data):
+                if not data.startswith("https://"):
+                    data = "https://" + data
+                print(data)
+                if pattern in data:
+#                 if re.match(pattern, data):
                     print("data found: ", data)
                     print("previous detection: ", lastData)
                     if data != lastData:
@@ -73,3 +81,4 @@ finally:
     cap.release()
     cv2.destroyAllWindows()
     selenium.quit()
+
