@@ -22,7 +22,7 @@ selenium.get(default_url)
 selenium.fullscreen_window()
 
 lastData = default_url
-pattern = r"^https://([a-zA-Z0-9-]+\.)*materialconnexion\.com(/.*)?$"
+pattern = r"^https://([a-zA-Z0-9-]+\.)*materialconnexion\.[a-zA-Z]{2,}(/.*)?$"
 
 # Function to find an available camera
 def find_camera():
