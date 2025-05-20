@@ -28,9 +28,7 @@ Enter the name of the network and choose the appropriate `Wi-Fi Security` option
 By default, the code opens materialconnexion.com and only allows URLs with that domain to be opened.
 1) To change it, open scanner.py (Click: folder button in the left upper corner > qrscanner folder > scanner.py)
 2) Change the `pattern` value to include the domain of the websites you need to allow (e.g. `pattern = "iucsyd"`) 
-<img width="975" alt="image" src="https://github.com/user-attachments/assets/29e175c5-d9d1-4142-8550-50b548c690f8" />
-
-
+<img width="671" alt="445568017-29e175c5-d9d1-4142-8550-50b548c690f8 (1)" src="https://github.com/user-attachments/assets/0c309041-b34b-4250-b4ab-33af173086d0" />
 
 ## What to do at the end of each day
 1. Close the browser by moving the cursor to the top of the screen and pressing the X button.
