@@ -47,7 +47,30 @@ By default, the code opens materialconnexion.com and only allows URLs with that 
    4. You should now see Firefox and the camera window pop up.
    5. When Firefox is opened in full screen, accept the cookies.
    6. Congrats! The camera will now automatically read the codes and cycle between the different web pages.
-  
+## If something goes REALLY wrong (the Raspberry Pi doesn't load)
+You need to reconfigure the SD card. Here is how you do it: 
+1. (This is the biggest step) Follow the steps here **on you computer**: [Instructions to download and configure SD card](https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system)
+   1. Follow the steps of Install an operating system: Install using Imager.
+   2. Then follow the in instruction of OS customisation, fill the data accordingly:
+   [image]
+   3. Then follow the instructions of Write
+Now you have your SD card configured. Now you will insert it into the Rasberry Pi and fetch the dependencies:
+2. Insert the SD card into the Rasberry Pi and start it like you do in the beginning of the day.
+3. Once it has turned on, and you are connected to the WiFi, click in the browser symbol in the upper left corner of the screen.
+4. In the browser, manually type https://github.com/I-O-I-O/qrcodescanner/.
+5. Click on setup.sh > Download icon (Download raw file)
+6. Open your File tree (Folder Icon in the upper left corner of the screen)
+7. Move the setup.sh to Home
+8. Click on the terminal icon in the upper left corner of the screen
+9. In the terminal, write: sh setup.sh
+10. Wait until in downloads everything (the last one will be geckodriver), then close the terminal
+Now, that you have all the dependencies, time to fetch the code and start it:
+11. In the browser on the site https://github.com/I-O-I-O/qrcodescanner/, click on start.sh
+12. Click the download icon
+13. Open your folder and by dragging and dropping, add start.sh to the Desktop
+14. Now, that you have it there, right click > Properites > Permission tab > Select Execute drop down > Anyone > Now you can close it
+15. Double click on the icon and click Execute
+
 ## Other info
 **username:** ioio
 **password:** materialautomation
