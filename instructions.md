@@ -51,3 +51,7 @@ By default, the code opens materialconnexion.com and only allows URLs with that 
 ## Other info
 **username:** ioio
 **password:** materialautomation
+
+https://www.raspberrypi.com/documentation/computers/getting-started.html
+<img width="680" alt="image" src="https://github.com/user-attachments/assets/55246206-a56e-41f3-a7b7-50cc90f1f556" />
+<img width="539" alt="Screenshot 2025-05-20 at 13 07 52" src="https://github.com/user-attachments/assets/626ee13d-a80d-4c7e-80b1-1e879e54be2b" />
