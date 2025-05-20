@@ -52,7 +52,7 @@ You need to reconfigure the SD card. Here is how you do it:
 1. (This is the biggest step) Follow the steps here **on you computer**: [Instructions to download and configure SD card](https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system)
    1. Follow the steps of Install an operating system: Install using Imager.
    2. Then follow the in instruction of OS customisation, fill the data accordingly:
-   [image]
+   ![image](https://github.com/user-attachments/assets/6edb6267-c58c-496a-82bd-a7ad4f99f601)
    3. Then follow the instructions of Write
 Now you have your SD card configured. Now you will insert it into the Rasberry Pi and fetch the dependencies:
 2. Insert the SD card into the Rasberry Pi and start it like you do in the beginning of the day.
@@ -74,7 +74,3 @@ Now, that you have all the dependencies, time to fetch the code and start it:
 ## Other info
 **username:** ioio
 **password:** materialautomation
-
-https://www.raspberrypi.com/documentation/computers/getting-started.html
-<img width="680" alt="image" src="https://github.com/user-attachments/assets/55246206-a56e-41f3-a7b7-50cc90f1f556" />
-<img width="539" alt="Screenshot 2025-05-20 at 13 07 52" src="https://github.com/user-attachments/assets/626ee13d-a80d-4c7e-80b1-1e879e54be2b" />
