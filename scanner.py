@@ -16,9 +16,6 @@ options = Options()
 service = Service(executable_path='/usr/local/bin/geckodriver')
 selenium = webdriver.Firefox(service=service, options=options)
 
-# Joachim.graetsch@iucsyd.se
-# Mässdagar@5
-
 # Default page and matching pattern
 default_url = "https://materialconnexion.com"
 selenium.get(default_url)
